@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    margin-top: 40vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.far{
+    color: black;
+}
+
+i.escuro{
+    color: white;
+}
+
+.escuro button{
+    color: white;
+    background-color: black;
+}
+
+body.escuro{
+    background: black;
+
+}
+
+.escuro h1{
+    color: white;
+}
